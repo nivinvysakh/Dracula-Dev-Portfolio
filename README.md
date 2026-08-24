@@ -1,5 +1,6 @@
 # 🦇 Dracula Developer Portfolio Template 🚀
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Site-50fa7b?logo=googlechrome&logoColor=282a36)](https://nivinvysakh.netlify.app)
 [![Astro](https://img.shields.io/badge/Astro-v7.2-BC52EE?logo=astro&logoColor=white)](https://astro.build)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-v4.3-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -8,6 +9,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A modern, minimalist, retro Dracula-themed developer portfolio and GitHub README-style showcase template built with **Astro 7**, **Tailwind CSS v4**, **TypeScript**, and **Docker**.
+
+🔗 **Live Preview**: [https://nivinvysakh.netlify.app](https://nivinvysakh.netlify.app)
 
 Designed for developers, DevOps engineers, and designers who want a fast, stylish, and highly customizable personal website.
 
@@ -23,6 +26,20 @@ Designed for developers, DevOps engineers, and designers who want a fast, stylis
 - 🛠️ **Centralized Configuration**: Customize your entire portfolio (name, bio, avatar, skills, tech stack, social links, projects) simply by editing `src/config.ts`.
 - 🐳 **Docker & NGINX Ready**: Multi-stage `dockerfile` supporting hot-reloaded development and optimized NGINX Alpine production serving with custom floating 404 page routing.
 - 🛡️ **Graceful Fallbacks**: Smart component visibility — features automatically collapse without broken layouts when third-party data is unavailable.
+
+---
+
+## 📸 Screen Shots
+
+|           **🏠 Home Page & Profile**           |             **⚡ Activity & Live Presence**              |
+| :--------------------------------------------: | :------------------------------------------------------: |
+|     ![Home Page](./Images/Home%20Page.png)     |            ![Activity](./Images/Activity.png)            |
+|      **🚀 Dedicated PR & Activity Page**       |               **🛠️ Skills & Technologies**               |
+| ![Activity Page](./Images/Activity%20Page.png) |              ![Skills](./Images/Skills.png)              |
+|        **💻 Projects & Collaboration**         |                 **📬 Contact & Footer**                  |
+|       ![Projects](./Images/Projects.png)       | ![Contact & Footer](./Images/Contact%20and%20footer.png) |
+|       **👻 Floating Sad Anime 404 Page**       |                                                          |
+|         ![404 Page](./Images/404.png)          |                                                          |
 
 ---
 
