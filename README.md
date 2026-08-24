@@ -35,15 +35,15 @@ Designed for developers, DevOps engineers, and designers who want a fast, stylis
 
 ## 📸 Screen Shots
 
-|           **🏠 Home Page & Profile**           |             **⚡ Activity & Live Presence**              |
-| :--------------------------------------------: | :------------------------------------------------------: |
-|     ![Home Page](./Images/Home%20Page.png)     |            ![Activity](./Images/Activity.png)            |
-|      **🚀 Dedicated PR & Activity Page**       |               **🛠️ Skills & Technologies**               |
-| ![Activity Page](./Images/Activity%20Page.png) |              ![Skills](./Images/Skills.png)              |
-|        **💻 Projects & Collaboration**         |                 **📬 Contact & Footer**                  |
-|       ![Projects](./Images/Projects.png)       | ![Contact & Footer](./Images/Contact%20and%20footer.png) |
-|       **👻 Floating Sad Anime 404 Page**       |                                                          |
-|         ![404 Page](./Images/404.png)          |                                                          |
+|           **🏠 Home Page & Profile**           |                                **⚡ Activity & Live Presence**                                 |
+| :--------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+|     ![Home Page](./Images/Home%20Page.png)     |                               ![Activity](./Images/Activity.png)                               |
+|      **🚀 Dedicated PR & Activity Page**       |                                  **🛠️ Skills & Technologies**                                  |
+| ![Activity Page](./Images/Activity%20Page.png) |                                 ![Skills](./Images/Skills.png)                                 |
+|        **💻 Projects & Collaboration**         |                                    **📬 Contact & Footer**                                     |
+|       ![Projects](./Images/Projects.png)       |                    ![Contact & Footer](./Images/Contact%20and%20footer.png)                    |
+|       **👻 Floating Sad Anime 404 Page**       |                                    **🫐 Honorable Mention**                                    |
+|         ![404 Page](./Images/404.png)          | ![Dracula & idk](https://i.pinimg.com/originals/b7/57/d3/b757d35971d2aa9b8948885dfdfc6191.gif) |
 
 ---
 
