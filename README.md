@@ -1,5 +1,9 @@
 # 🦇 Dracula Developer Portfolio Template 🚀
 
+<br>
+
+<img align="right" width="130" src="./Images/dracula.svg" alt="Dracula Emoji" />
+
 [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Site-50fa7b?logo=googlechrome&logoColor=282a36)](https://nivinvysakh.netlify.app)
 [![Astro](https://img.shields.io/badge/Astro-v7.2-BC52EE?logo=astro&logoColor=white)](https://astro.build)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-v4.3-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
