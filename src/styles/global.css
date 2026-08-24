@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dracula-bg: #282a36;
+  --color-dracula-bgDarker: #1e1f29;
+  --color-dracula-card: #21222c;
+  --color-dracula-selection: #44475a;
+  --color-dracula-fg: #f8f8f2;
+  --color-dracula-comment: #6272a4;
+  --color-dracula-cyan: #8be9fd;
+  --color-dracula-green: #50fa7b;
+  --color-dracula-orange: #ffb86c;
+  --color-dracula-pink: #ff79c6;
+  --color-dracula-purple: #bd93f9;
+  --color-dracula-red: #ff5555;
+  --color-dracula-yellow: #f1fa8c;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'Fira Code', 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    color: #f8f8f2;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  /* Minimal Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1e1f29;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #44475a;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bd93f9;
+  }
+
+  ::selection {
+    background-color: #44475a;
+    color: #ff79c6;
+  }
+}
+
+/* Minimal Dracula Card & Glass Utility */
+.dracula-glass {
+  background: rgba(33, 34, 44, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(68, 71, 90, 0.3);
+}
+
+.dracula-card {
+  background: #21222c;
+  border: 1px solid rgba(68, 71, 90, 0.35);
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.dracula-card:hover {
+  border-color: rgba(189, 147, 249, 0.45);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes floatDrift {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-16px) rotate(-3deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-20px) rotate(3deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.animate-float-drift {
+  animation: floatDrift 5s ease-in-out infinite;
+}
+
+@keyframes moveAroundScreen {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-35px, -30px) rotate(-4deg);
+  }
+  40% {
+    transform: translate(30px, -50px) rotate(4deg);
+  }
+  60% {
+    transform: translate(50px, 25px) rotate(-3deg);
+  }
+  80% {
+    transform: translate(-25px, 40px) rotate(3deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+.animate-move-around {
+  animation: moveAroundScreen 10s ease-in-out infinite;
+}
+
+/* Equalizer Now Playing Audio Graph Keyframes */
+@keyframes equalizerBar {
+  0%, 100% { height: 3px; }
+  50% { height: 13px; }
+}
+
+@keyframes equalizerBarSlow {
+  0%, 100% { height: 4px; }
+  50% { height: 10px; }
+}
+
+@keyframes equalizerBarFast {
+  0%, 100% { height: 2px; }
+  50% { height: 14px; }
+}
+
+.animate-equalizer-1 {
+  animation: equalizerBar 0.8s ease-in-out infinite;
+}
+
+.animate-equalizer-2 {
+  animation: equalizerBarFast 0.6s ease-in-out infinite 0.15s;
+}
+
+.animate-equalizer-3 {
+  animation: equalizerBarSlow 0.9s ease-in-out infinite 0.3s;
+}
+
+.animate-equalizer-4 {
+  animation: equalizerBar 0.75s ease-in-out infinite 0.45s;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "astro-dracula-portfolio",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Minimalist Dracula-themed developer portfolio template powered by Astro 7 & Tailwind CSS v4",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/dracula-portfolio.git"
+  },
+  "keywords": [
+    "astro",
+    "astro-theme",
+    "astro-template",
+    "portfolio",
+    "developer-portfolio",
+    "dracula-theme",
+    "tailwindcss",
+    "typescript",
+    "lanyard",
+    "discord-presence",
+    "spotify"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@tailwindcss/vite": "^4.3.3",
+    "@tsparticles/astro": "^4.3.2",
+    "@tsparticles/engine": "^4.3.2",
+    "@tsparticles/slim": "^4.3.2",
+    "astro": "^7.2.1",
+    "firebase": "^12.17.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.5.4"
+  }
+}
