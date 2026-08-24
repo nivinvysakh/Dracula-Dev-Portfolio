@@ -38,6 +38,6 @@
     "astro": "^7.2.1",
     "firebase": "^12.17.1",
     "tailwindcss": "^4.3.3",
-    "typescript": "^5.5.4"
+    "typescript": "^7.0.2"
   }
 }
