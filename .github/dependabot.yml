@@ -7,3 +7,6 @@ updates:
     open-pull-requests-limit: 5
     labels:
       - "dependabot"
+    ignore:
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
